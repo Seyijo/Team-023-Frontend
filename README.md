@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d707a385504b4c8cad15b58771dd6378)](https://app.codacy.com/gh/BuildForSDGCohort2/Team-023-Frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/Team-023-Frontend&utm_campaign=Badge_Grade_Settings)
+
 In the project directory, you can run:
 
 ### `yarn start`
