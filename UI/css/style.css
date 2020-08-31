@@ -12,6 +12,30 @@ body{
     width:60%;
     background: mediumaquamarine;
 }
+#f1 p {
+    margin:0 ;
+    display: flex;
+    flex-flow: row;
+    font-weight: bold;
+    font-size:3em;
+    height:20%;
+    border-bottom:1px solid whitesmoke;
+    background:aquamarine;
+}
+#f1 p span{
+    width:80%;
+    height: 100%;
+    text-align:center;
+    padding: 10px;
+}
+#f1 p img{
+    width:20%;
+    height: 80%;
+    margin:10px;
+}
+#f1 p img:hover{
+    cursor: pointer;
+}
 #f2{
     width:40%;
     background: papayawhip;
@@ -25,4 +49,50 @@ footer{
     text-align: center;
     font-size: xx-large;
     font-family: fantasy;
+}
+@media  only screen and (max-width:768px){
+    body{
+        display: flex;
+        flex-flow: column;
+    }
+    #main{
+        display: flex;
+        flex-flow: column;
+        width:100vw;
+        height:90vh;
+    }
+    #f1{
+        width:100%;
+        background: mediumaquamarine;
+        height:50%;
+    }
+    #f1 p {
+        margin:0 ;
+        display: flex;
+        flex-flow: row;
+        font-weight: bold;
+        font-size:2em;
+        height:30%;
+        border-bottom:1px solid whitesmoke;
+        background:aquamarine;
+    }
+    #f1 p span{
+        width:70%;
+        height: 100%;
+        text-align:center;
+        padding: 10px;
+    }
+    #f1 p img{
+        width:30%;
+        height: 80%;
+    }
+    #f1 p img:hover{
+        cursor: pointer;
+    }
+    #f2{
+        width:100%;
+        background: papayawhip;
+        height:50%;
+    }
+
 }
