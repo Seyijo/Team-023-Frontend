@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-flow: column;
+}
+#main{
+    display: flex;
+    flex-flow: row;
+    width:100vw;
+    height:90vh;
+}
+#f1{
+    width:60%;
+    background: mediumaquamarine;
+}
+#f2{
+    width:40%;
+    background: papayawhip;
+}
+
+footer{
+    height:10vh;
+    width: 100vw;
+    background-color: black;
+    color:gold;
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+}
